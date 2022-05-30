@@ -1,10 +1,12 @@
-import type { Message } from 'discord.js';
+import type { Message, Client } from 'discord.js';
 
 export interface ISimpleCommand {
     name: string;
     adminOnly: boolean;
     description?: string;
     permissions?: string[];
+    disabled?: boolean;
+    run: (client: Client, message: Message, args: string[]) => unknown;
 };
 
 export interface ISlashCommand {
@@ -22,5 +24,4 @@ export interface IEvent {
 export interface IHandler {
     name: string;
     type: string;
-    run: () => unknown;
 }
