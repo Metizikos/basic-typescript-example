@@ -1,7 +1,7 @@
 {
-  "name": "code",
+  "name": "metizikos-typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "Made By Metizikos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,13 +15,11 @@
     "colors": "^1.4.0",
     "discord-api-types": "^0.33.1",
     "discord.js": "^13.7.0",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
-    "eslint": "^8.16.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
   }
 }
