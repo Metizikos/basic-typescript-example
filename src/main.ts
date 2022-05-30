@@ -1,11 +1,17 @@
 import 'dotenv/config'
 import colors from 'colors'
-
 import { client, start } from './utils/client'
-import { eventLoader } from './utils/stations'
+import { eventLoader, simpleCommandLoader, handlerLoader } from './utils/stations'
+import { Collection } from 'discord.js'
+
+
+export const SimpleCommands = new Collection();
+export const SlashCommands = new Collection();
 
 console.log(colors.blue('Loading...'));
-eventLoader(client);;
 
+eventLoader(client);;
+simpleCommandLoader(client);
+handlerLoader(client);
 
 start();
