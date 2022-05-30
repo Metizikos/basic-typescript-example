@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "ESNext", // required
+    "module": "commonjs", // required
     "target": "ESNext", // required
     "noImplicitAny": true,
     "sourceMap": true,
