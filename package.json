@@ -1,11 +1,12 @@
 {
   "name": "metizikos-typescript",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "description": "Made By Metizikos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/main.ts"
+    "dev": "nodemon src/main.ts",
+    "build": "tsc"
   },
   "author": "Metizikos",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "nodemon": "^2.0.16"
   },
   "devDependencies": {
+    "@types/node": "^17.0.36",
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2"
   }
