@@ -1,7 +1,10 @@
 # metizikos-typescript
 Discord Bot made with TypeScript by Metizikos
-# Processing... 
 
+# Status
+> Processing...
+
+___________________________________________________________________________________________________________________________________________________________
 
 
 # Organization
