@@ -6,7 +6,7 @@ import { Collection } from 'discord.js'
 
 
 export const SimpleCommands = new Collection();
-export const SlashCommands = new Collection();
+export const SlashCommands = new Collection(); // SOON
 
 console.log(colors.blue('Loading...'));
 
