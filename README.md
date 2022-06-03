@@ -1,8 +1,8 @@
 # metizikos-typescript
-Discord Bot made with TypeScript by Metizikos
+Discord Bot Example made with TypeScript by Metizikos
 
 # Status
-> Processing...
+> Completed
 
 ___________________________________________________________________________________________________________________________________________________________
 
